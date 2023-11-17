@@ -4,7 +4,7 @@ This is my personal portfolio website showcasing my skills, recent projects, and
 
 ## Features Available
 
--Download Resume Option
--Email Contact Form
--Recent Projects (link to repo)
--Skills showcased & learned
+* Download Resume Option
+* Email Contact Form
+* Recent Projects (link to repo)
+* Skills showcased & learned
