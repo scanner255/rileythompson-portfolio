@@ -1,0 +1,19 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp css $DEPLOYPATH
+    - /bin/cp images $DEPLOYPATH
+    - /bin/cp js $DEPLOYPATH
+    - /bin/cp libs $DEPLOYPATH
+    - /bin/cp node_modules $DEPLOYPATH
+    - /bin/cp scss $DEPLOYPATH
+    - /bin/cp .DS_Store $DEPLOYPATH
+    - /bin/cp CNAME $DEPLOYPATH
+    - /bin/cp LICENSE.MD $DEPLOYPATH
+    - /bin/cp README.MD $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp gulpfire.js $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp package-lock.json $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
